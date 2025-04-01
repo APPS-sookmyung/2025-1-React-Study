@@ -17,14 +17,14 @@ add(1, 2, (value)=>{console.log(value);});
 function orderFood(callback){
     setTimeout(()=>{
         const food = "떡볶이";
-        callback(food);
+        callback(food); //console.log(food);
     }, 3000);
 };
 
 function cooldownFood(food,callback){
     setTimeout(()=>{
         const cooldownedFood = `식은 ${food}`;
-        callback(cooldownedFood);
+        callback(cooldownedFood); //식은 떡볶이 출력
     }, 2000);
 };
 
