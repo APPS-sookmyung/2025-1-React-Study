@@ -46,5 +46,5 @@ let objectArr = [
     {name: "임유진"},
     {name: "홍길동"},
 ];
-// console.log(objectArr.indexOf({name:"임유진"}));
+//console.log(objectArr.indexOf({name:"임유진"}));
 // console.log(objectArr.findIndex((item)=>item.name==="임유진"));
