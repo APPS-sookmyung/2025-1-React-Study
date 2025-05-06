@@ -15,6 +15,7 @@ function repeat(count, callback) {
 }
 
 repeat(5, function (idx) {
+  // 익명 함수
   console.log(idx);
 });
 
