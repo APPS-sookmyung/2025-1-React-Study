@@ -7,13 +7,13 @@ function main(value){
 }
 
 main(() => {
-    // console.log("i am sub");
+    console.log("i am sub");
 })
 
 //2. 콜백함수의 활용
 function repeat(count, callback){
     for (let idx = 1; idx <= count; idx++){
-        callback(idx);
+        callback(idx); //console.log(idx)
     }
 }
 

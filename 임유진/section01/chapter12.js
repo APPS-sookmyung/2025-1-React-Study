@@ -17,4 +17,4 @@ let varC = (value) => {
     console.log(value);
     return value + 1;
 }
-console.log(varc(10));
+console.log(varC(10));
