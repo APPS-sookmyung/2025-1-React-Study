@@ -79,7 +79,7 @@ function App() {
   };
   // 인수 : todos 배열에서 targetId와 일치하는 id를 갖는 요소만 삭제한 새로운 배열
   // setTodos(todos.filter((todo) => todo.id !== targetId));
-  //삭제 대상이 아닌 요소들만 필터링
+  // 삭제 대상이 아닌 요소들만 필터링됨
 
   return (
     <div className="App">
