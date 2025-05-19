@@ -26,9 +26,9 @@ function App() {
 
   //3. 언마운트: 죽음
 
-  // useEffect(() => {
-  //   console.log(`count: ${count} / input: ${input}`);
-  // }, [count, input]);
+  useEffect(() => {
+    console.log(`count: ${count} / input: ${input}`);
+  }, [count, input]);
   //배열에 담긴 count값이 변경될 때마다 console에 출력
   //의존성 배열, dependency array, deps
 
