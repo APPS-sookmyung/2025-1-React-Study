@@ -12,7 +12,7 @@ const TodoItem = ({ id, isDone, content, date, onUpdate, onDelete }) => {
   return (
     <div className="TodoItem">
       <input
-        onChange={onChangeCheckbox} // onchange라는 eventhandler를 사용한다
+        onChange={onChangeCheckbox} // onchange라는 eventhandler를 사용함
         readOnly
         checked={isDone}
         type="checkbox"
